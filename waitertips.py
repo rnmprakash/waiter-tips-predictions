@@ -3,7 +3,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-data = pd.read_csv("tips.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/amankharwal/Website-data/master/tips.csv")
 print(data.head())
 
 figure = px.scatter(data_frame = data, x="total_bill",
